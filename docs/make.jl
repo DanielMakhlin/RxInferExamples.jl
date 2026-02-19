@@ -39,8 +39,16 @@ can be applied to specific problems like time series analysis and signal process
         "experimental_examples",
         """
 Experimental examples and proof-of-concepts. These examples are not yet ready for
-production use but are useful for research and development. They also usually require 
+production use but are useful for research and development. They also usually require
 additional patches to RxInfer.jl to work.
+"""
+    ),
+    Category(
+        "Flow Project",
+        "flow_project",
+        """
+Flow-analysis examples using Hidden Markov Models and RxInfer.jl for water-flow
+fingerprinting and source separation.
 """
     )
 ]
